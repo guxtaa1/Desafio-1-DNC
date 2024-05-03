@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+#Cabecalho{
+    background-color: rgba(48, 48, 48, 1);
+    margin: 0px;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1);
+}
+#TituloCabecalho{
+   margin-top: 0px;
+   margin-left: 50px;
+   padding-top: 10%;
+   font-weight: 600;
+}
+#TextoCabecalho{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 12%;
+    font-size: 12px;
+    font-weight: 300;
+}
+#Numeros{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+}
+
+.Numeros{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.Textos{
+    margin-left: 60px;
+}
+
+#TituloTextoInformativo{
+margin-top: 230px;
+margin-left: 80px;
+font-size: 30px;
+font-weight: 500;
+}
+
+#TextoInformativo{
+margin-top: 30px;
+margin-left: 80px;
+font-size: 20px;
+}
+
+#TextoEImagem{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+
+}
+.Imagem{
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 80px;
+margin-bottom: 30px;
+Width: 510px;
+Height: 605px;
+}
+#Formulario{
+background-color: rgba(48, 48, 48, 1);
+text-align: center;
+}
+#TextoFormulario{
+text-align: center;
+font-size: 25px;
+padding-top: 40px;
+margin: 25px;
+color: white;}
+input{
+width: 300px;
+height: 40px;
+background-color: white;
+margin: 20px;
+border: 0px;
+border-radius: 5px;
+padding-left: 20px;
+}
+button{
+background-color: rgba(192, 114, 18, 1);
+width: 150px;
+height: 40px;
+color: white;
+border: 0px;
+border-radius: 5px;
+margin-top: 20px;
+font-weight: bolder;
+cursor: pointer;
+margin-bottom: 50px;
+}
+button:hover{
+background-color: rgb(221, 157, 79);
+color: white;
+width: 150px;
+transform: translateY(-7px);
+box-shadow: 0px 5px 10px rgb(124, 116, 116);
+transition-duration: 0,8s;
+}   
